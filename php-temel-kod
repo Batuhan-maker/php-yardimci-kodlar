@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<meta charset="utf-8">
+</head>
+<body>
+	<?php
+echo "Batuhan Özköse";	?>	
+
+
+<br>
+
+	<?php 
+	print "Batuhan Özköse";   ?>
+
+<hr>
+
+<!-- Bu bir yorum satırıdır-->
+
+
+<?php 		
+
+//Bu bir Yorum Satırıdır
+#Bu bir Yorum Satırıdır
+/*Bu bir Yorum Satırıdır*/
+
+?>
+
+<br>
+
+
+
+
+<?php
+
+echo "Batuhan Özköse";
+
+
+?>
+
+
+
+
+<?php
+
+
+echo " Batuhan";  echo " Batuhan";
+
+//Birleştirme Operatörü
+
+echo " Batuhan"." Batuhan"." Mehmet"
+
+
+
+?>
+
+
+
+
+
+<?php
+
+
+//Değişkenler
+
+echo $ad="batuhan";
+$soyad="Ozkose";
+$no=500;
+$AdSoyad="Batuhan Ozkose";
+
+?>
+
+<br>
+
+
+<?php
+    $isim = "lifaacode";
+    echo $isim;
+?>
+
+
+
+
+<?php
+echo $AdSoyad
+
+
+?>
+
+
+
+
+<br>
+<br>
+<br>
+<?php
+
+$ismi="Batuhan Ozkose";
+$unvan="Coder and Graphic Designer";
+echo "<br>";
+
+echo $ismi.$unvan;
+
+//Ve "echo" Candır.
+
+?>
+
+<br>
+<br>
+<?php
+
+
+//Kurs Odev 
+
+
+$name="Batuhan";  
+echo "<br>";
+$surname="Ozkose";
+echo "<br>";
+$yas="13";
+echo "<br>";
+$okul="Bahcesehir Koleji";
+echo "<br>";
+
+
+
+echo $name.$surname.$yas.$okul."<br>"."<br>";
+
+
+
+
+
+$amaci="Graphic Designer_Coder";
+
+?>
+
+
+
+<?php
+echo "<h1>Bilgilerim</h1>";
+echo "<hr>";
+
+
+
+echo "Adınız ve Soyadınız:"."$ad"."$soyad";
+echo "<br>";
+echo "Amacınız:"."$amaci";
+
+?>
+
+
+
+
+
+
+<?php
+echo "<br>"; echo "<br>"; echo "<br>"; echo "<br>"; echo "<br>"; echo "<br>";
+echo "<hr>";
+echo "<br>";
+
+//Matematiksel İşlemler
+
+$numara1=50;
+$numara2=10;
+
+
+echo $numara1+$numara2;
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<hr>";
+
+
+
+
+
+echo $topla=$numara1+$numara2;
+
+
+
+
+if ($topla>50)  {
+	echo "  = elliden büyük";
+}
+
+
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<hr>";
+
+
+
+
+
+
+
+?>
+
+<h1>"MATEMATİKSEL İŞLEMLER"</h1>
+
+<hr>
+
+
+
+
+
+
+
+
+<?php
+//Toplama İşlemi
+
+
+echo "Toplama İşlemi";
+echo "<br>";
+$topla=$numara1+$numara2;
+echo "<br>";
+echo "$numara1 + $numara2 = $topla";
+
+
+echo "<br>";
+echo "<hr>";
+
+
+
+
+//Çıkarma İşlemi
+
+
+echo "<br>";
+echo "Çıkarma İşlemi";
+echo "<br>";
+$cikar=$numara1-$numara2;
+echo "<br>";
+echo "$numara1 - $numara2 = $cikar";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Bölme İşlemi
+
+
+echo "<hr>";
+echo "Bölme İşlemi";
+echo "<br>";
+$bol=$numara1/$numara2;
+echo "<br>";
+echo "$numara1 / $numara2 = $bol";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Çarpma İşlemi
+
+echo "<hr>";
+echo "Çarpma İşlemi";
+echo "<br>";
+$carp=$numara1*$numara2;
+echo "<br>";
+echo "$numara1 * $numara2 = $carp";
+
+
+
+
+
+
+echo "<br>"; 
+echo "<br>"; 
+echo "<br>"; 
+echo "<br>"; 
+echo "<br>"; 
+echo "<br>";
+
+echo "<hr>";
+
+
+
+
+$atama=400;
+
+echo "\$atama değişkeninin değeri : ". $atama;
+echo "<hr>";
+
+//$atama+=500;
+$atama=$atama+500;
+
+echo "\$atama değişkeninin değeri : ". $atama;
+echo "<hr>";
+
+
+
+
+$atama--;
+echo "\$atama değişkeninin değeri : ". $atama;
+echo "<hr>";
+
+
+
+
+?>
+
+<?php 
+// Hazır Fonksıyonlara bakıs
+// belirlenen aralıkta sayı uretir
+
+echo  $sayi=rand(0,10);  echo "<br>";
+
+if ($sayi>=5) {
+	
+echo "kazandın";
+} else {
+
+echo "<hr>";
+
+	echo "Kaybettin Dostum";
+}
+
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<hr>";
+
+
+
+//Çift tırnak ve tek tırnak arasındaki farklar 
+
+
+
+$ad=batu;
+$soyadı=özköses;
+
+echo "Benim adım $ad";
+echo "<br>";
+echo 'Benim adım $ad';
+//tek tırnakta her şey olduğu gibi yazılır yazni fonksiyonlar kullanılamaz 
+
+
+
+
+echo "<br>";echo "<br>";
+
+echo "Ben udemy kursuna kayıt oldum";
+echo "<br>";
+echo "Ben $ad \"Udemy\" kursuna kayıt oldum.";
+
+echo "<br>";
+
+
+
+//HAzır string fonksiyonlar 
+
+
+echo $yazi="BEN UDEMY İLERİ SEVİYE PHP KURSUNA KAYITLIYIM.";
+echo "<br>";
+echo "<br>";
+echo strtolower($yazi);
+echo "<br>";
+echo strtoupper($yazi);
+echo "<br>";
+
+
+
+echo $yazi="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus lorem nec ante tempor rhoncus. Sed congue diam sed placerat scelerisque. Fusce sodales aliquam pharetra. Quisque tempus a massa a laoreet. Vestibulum luctus metus vel euismod interdum. Vivamus euismod mi eu aliquam consectetur. Maecenas dictum, dui in rhoncus volutpat, ante nisi venenatis dolor, non imperdiet orci mauris ac dui. Pellentesque vitae urna sit amet purus aliquet sodales. Donec faucibus eu lorem venenatis rutrum. Praesent vestibulum felis nisl. Nam ac ante non neque pulvinar vehicula sed ac libero. Aenean dignissim ipsum quam, sit amet condimentum ligula tempor at. Vestibulum laoreet egestas ex, vitae varius tellus elementum ac. Praesent sagittis dolor eget fermentum feugiat. Nulla laoreet magna felis, convallis posuere arcu lacinia ac. Suspendisse vulputate purus a ex congue malesuada.";
+
+
+echo "<br>";
+
+echo "<hr>";
+
+echo "<h1>Haber Başlığı</h1>";
+
+echo "<p>".substr($yazi,0,250)."...</p>";
+
+echo "<a href=\"#\">Devamını Oku</a>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
